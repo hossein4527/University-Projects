@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2020.5.8)  3 JUN 2020 19:25
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2020.5.8)  16 JUN 2020 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,44 +1132,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--103
 [21
 
 ]
-File: /home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fi
-g1.png Graphic file (type bmp)
-</home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fig1.pn
-g>
-File: /home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fi
-g2.png Graphic file (type bmp)
-</home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fig2.pn
-g>
-
-
-LaTeX Warning: Reference `fig:3' on page 22 undefined on input line 297.
-
-File: /home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fi
-g3.png Graphic file (type bmp)
-</home/hossein4527/MEGA/MEGAsync/Thesis_QuantumFinance/MSc_Thesis/plots/fig3.pn
-g>
-[22] [23]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fig1.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+g1.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fig2.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+g2.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fig3.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+g3.png>
+ [22] [23]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fig4.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+g4.png>
+ [24]
 فصل 4.
-[24
-
-]
-فصل 5.
 [25
 
 ]
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
- [26
+فصل 5.
+[26
 
-] [27] [28]
+]
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
+ [27
+
+] [28] [29]
 Missing character: There is no ö in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
 
-Underfull \hbox (badness 2245) in paragraph at lines 477--478
+Underfull \hbox (badness 2245) in paragraph at lines 494--495
 [][]\TU/Lotus.ttf(0)/m/sl/12 Haven، Emmanuel. ”A Black-Scholes Schrödinger opti
 on price:‘bit’versus[]
  []
@@ -1182,27 +1183,27 @@ Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
-[29]
+[30]
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
- [30]
-Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
-Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
-LT;mapping=persian-tex-text;!
-Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
 LT;mapping=persian-tex-text;!
  [31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
+Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
+Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
+Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=DF
+LT;mapping=persian-tex-text;!
  [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 657.
+ [33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 657.
  (./Test_farsi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 640.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 657.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 657.
 Package rerunfilecheck Info: File `Test_farsi.out' has not changed.
 (rerunfilecheck)             Checksum: 872584927364AB274AAFFFC9DEB1603A.
 
@@ -1210,20 +1211,17 @@ Package rerunfilecheck Info: File `Test_farsi.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 657.
  ) 
 Here is how much of TeX's memory you used:
- 26848 strings out of 492483
- 503976 string characters out of 6134980
- 781338 words of memory out of 5000000
- 31021 multiletter control sequences out of 15000+600000
+ 26856 strings out of 492483
+ 504606 string characters out of 6134980
+ 780338 words of memory out of 5000000
+ 31028 multiletter control sequences out of 15000+600000
  539218 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,8n,77p,4591b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Test_farsi.pdf (32 pages).
+Output written on Test_farsi.pdf (33 pages).

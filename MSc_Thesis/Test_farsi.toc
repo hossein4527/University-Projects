@@ -5,5 +5,5 @@
 \contentsline {chapter}{\numberline {2}مبانی ریاضیاتی مورد نیاز}{18}{chapter.2}% 
 \contentsline {chapter}{\numberline {3}تعمیم پتانسیل کوانتومی در مطالعه بازارهای همبسته}{21}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}پتانسیل کوانتومی حاکم بر سود و زیان یک بازار}{22}{section.3.1}% 
-\contentsline {chapter}{\numberline {4}مدیریت ریسک و سبد سهام با استفاده از پتانسیل کوانتومی}{24}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}خلاصه و نتیجه‌گیری}{25}{chapter.5}% 
+\contentsline {chapter}{\numberline {4}مدیریت ریسک و سبد سهام با استفاده از پتانسیل کوانتومی}{25}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}خلاصه و نتیجه‌گیری}{26}{chapter.5}% 
