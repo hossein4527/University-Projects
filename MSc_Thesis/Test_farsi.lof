@@ -1,9 +1,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{23}{figure.caption.4}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces سری زمانی سود شاخص S\&P500\relax }}{23}{figure.caption.5}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces تابع توزیع احتمال سود شاخص S\&P500\relax }}{23}{figure.caption.6}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces تابع توزیع احتمال سود شاخص S\&P500\relax }}{24}{figure.caption.7}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{25}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces سری زمانی سود شاخص S\&P500\relax }}{25}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces تابع توزیع احتمال سود شاخص S\&P500\relax }}{25}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{26}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های هفتگی بازار S\&P500\relax }}{27}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های ماهانه بازار S\&P500\relax }}{27}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های فصلی بازار S\&P500\relax }}{27}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces شکل سه بعدی تابع توزیع و پتانسیل های کوانتومی مربوطه رسم شده برای $\rho =0, 0.5, 1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{32}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{33}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=2\sigma _{y}$.\relax }}{35}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces داده های قیمتی بازار های نشان داده شده در شکل برای بازه\relax }}{37}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{38}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{40}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{41}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{42}{figure.caption.18}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{46}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{46}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{47}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces شکل شماتیک نحوه تشکیل شاخص سبد سهام با وزن های مختلف\relax }}{48}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces شکل شماتیک \relax }}{49}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{50}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces سبدهای سهام پیشنهادی الگوریتم ژنتیک\relax }}{51}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces بازدهی هر کدام از سبدهای پیشنهادی شکل \ref {fig:5.7}\relax }}{51}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces رابطه نمایی ریسک با مقیاس\relax }}{52}{figure.caption.27}%
 \addvspace {10\p@ }
