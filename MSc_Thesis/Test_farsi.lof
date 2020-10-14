@@ -1,29 +1,54 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{25}{figure.caption.4}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces سری زمانی سود شاخص S\&P500\relax }}{25}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces تابع توزیع احتمال سود شاخص S\&P500\relax }}{25}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{26}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های هفتگی بازار S\&P500\relax }}{27}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های ماهانه بازار S\&P500\relax }}{27}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های فصلی بازار S\&P500\relax }}{27}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces شکل سه بعدی تابع توزیع و پتانسیل های کوانتومی مربوطه رسم شده برای $\rho =0, 0.5, 1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{32}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{33}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=2\sigma _{y}$.\relax }}{35}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces داده های قیمتی بازار های نشان داده شده در شکل برای بازه\relax }}{37}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{38}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{40}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{41}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{42}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{28}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces سری زمانی سود شاخص S\&P500\relax }}{28}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces تابع توزیع احتمال سود شاخص S\&P500\relax }}{29}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{30}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های هفتگی بازار S\&P500\relax }}{31}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های ماهانه بازار S\&P500\relax }}{31}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های فصلی بازار S\&P500\relax }}{31}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces پتانسیل کوانتومی مربوط به داده های بازار $S\&P$ همراه با پتانسیل کوانتومی حاکم بر یک نویز سفید گاوسی برای داده های زمانی روزانه، هفتگی، ماهانه و سالانه برداشته شده از مقاله طهماسبی \cite {tahmaseb} \relax }}{33}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces مقایسه ی رفتار مقیاسی پتانسیل کوانتومی برای بازارهای نوظهور و بازارهای کارآمد برداشته شده از مقاله طهماسبی \cite {tahmaseb}\relax }}{34}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces پتانسیل های کوانتومی حاکم بر بازار طلا در مقیاس های زمانی روزانه، ماهانه و سالانه برداشته شده از مقاله هاون \cite {shen}\relax }}{35}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces پتانسیل های کلاسیکی و کوانتومی حاکم بر بازار های نفت، طلا، نقره، مس و ذرت در مقیاس های زمانی روزانه برداشته شده از مقاله هاون \cite {shen}\relax }}{37}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces نیروهای کلاسیکی و پتانسیلی مربوط به پتانسیل های کلاسیکی و کوانتومی بازار ذرت، برداشته شده از مقاله طهماسبی \cite {tahmaseb} \relax }}{38}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces توابع توزیع و پتانسیل های کوانتومی برای متغیر های بازدهی و حجم معاملات شاخص داو جونز برداشته شده از مقاله نصیری \cite {nas2} \relax }}{40}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces شکل گرمایی پتانسیل کوانتومی مشترک محاسبه شده برای متغیر های بازدهی و حجم معاملات برداشته شده از مقاله نصیری \cite {nas2} \relax }}{41}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{46}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{46}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{47}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces شکل شماتیک نحوه تشکیل شاخص سبد سهام با وزن های مختلف\relax }}{48}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces شکل شماتیک \relax }}{49}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{50}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces سبدهای سهام پیشنهادی الگوریتم ژنتیک\relax }}{51}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces بازدهی هر کدام از سبدهای پیشنهادی شکل \ref {fig:5.7}\relax }}{51}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces رابطه نمایی ریسک با مقیاس\relax }}{52}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces شکل سه بعدی تابع توزیع و پتانسیل های کوانتومی مربوطه رسم شده برای $\rho =0, 0.5, 1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{46}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=\sigma _{y}$.\relax }}{47}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces شکل سه بعدی گرمایی رسم شده برای تابع توزیع و پتانسیل های مربوطه برای $\rho =0,0.5,1$ و $\sigma _{x}=2\sigma _{y}$.\relax }}{49}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces داده های قیمتی بازار های نشان داده شده در شکل برای بازه\relax }}{51}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{52}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{54}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{55}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces پتانسیل کوانتومی مشترک محاسبه شده برای بازار های نشان داده شده در مختصات.\relax }}{56}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces سری زمانی قیمت شاخص S\&P500\relax }}{60}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces وارانس محاسبه شده برای سری زمانی قیمت شاخص S\&P500\relax }}{60}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{61}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces شکل شماتیک نحوه تشکیل شاخص سبد سهام با وزن های مختلف\relax }}{62}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces شکل شماتیک \relax }}{63}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces پتانسیل کوانتومی حاکم بر داده های روزانه بازار S\&P500\relax }}{64}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces سبدهای سهام پیشنهادی الگوریتم ژنتیک\relax }}{65}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces بازدهی هر کدام از سبدهای پیشنهادی شکل \ref {fig:5.7}\relax }}{66}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces رابطه نمایی ریسک با مقیاس\relax }}{67}{figure.caption.34}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {آ.1}{\ignorespaces دیاگرام الگوریتم نحوه عملکرد روش‌های تکامل تدریجی\relax }}{74}{figure.caption.37}%
+\contentsline {figure}{\numberline {آ.2}{\ignorespaces ساختار یک جمعیت ساخت شده از کروموزوم‌های رمز نگاری شده\relax }}{76}{figure.caption.40}%
+\contentsline {figure}{\numberline {آ.3}{\ignorespaces چرخ گردان متناظر با جدول \ref {tab:rolt}\relax }}{78}{figure.caption.46}%
+\contentsline {figure}{\numberline {آ.4}{\ignorespaces تقاطع یک نقطه\relax }}{79}{figure.caption.51}%
+\contentsline {figure}{\numberline {آ.5}{\ignorespaces تقاطع دو نقطه‌ای\relax }}{79}{figure.caption.54}%
+\contentsline {figure}{\numberline {آ.6}{\ignorespaces تقاطع یکنواخت\relax }}{80}{figure.caption.57}%
+\contentsline {figure}{\numberline {آ.7}{\ignorespaces جهش بر روی یک کروموزوم\relax }}{80}{figure.caption.59}%
+\contentsline {figure}{\numberline {آ.8}{\ignorespaces مجموعه نقاط غیر برتر پارتو\relax }}{83}{figure.caption.61}%
+\contentsline {figure}{\numberline {آ.9}{\ignorespaces مجموعه نقاط بهینه جبهه پارتو به صورت یک خط راست\relax }}{84}{figure.caption.63}%
+\contentsline {figure}{\numberline {آ.10}{\ignorespaces توابع هدف یک مساله ساده \relax }}{84}{figure.caption.64}%
+\contentsline {figure}{\numberline {آ.11}{\ignorespaces تحدب و تقعر در مجموعه پارتو\relax }}{86}{figure.caption.69}%
+\contentsline {figure}{\numberline {آ.12}{\ignorespaces الگوریتم VEGA\relax }}{88}{figure.caption.75}%
+\contentsline {figure}{\numberline {آ.13}{\ignorespaces جبهه بندی غیر قالب\relax }}{89}{figure.caption.77}%
+\contentsline {figure}{\numberline {آ.14}{\ignorespaces نمایی شماتيک از نحوه عملکرد الگوريتم NSGA-II\relax }}{90}{figure.caption.78}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }

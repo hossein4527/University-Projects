@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.5)  7 SEP 2020 13:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.5)  14 SEP 2020 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,7 +810,85 @@ g=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-(./Test_farsi.aux
+
+! LaTeX Error: Option clash for package color.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \usepackage
+                {listings}
+The package color has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [usenames,dvipsnames]
+Adding the global options:
+  ,usenames,dvipsnames
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+
+! LaTeX Error: Option clash for package xcolor.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \usepackage
+                {listings}
+The package xcolor has already been loaded with options:
+  [usenames]
+There has now been an attempt to load it with options
+  [usenames,dvipsnames]
+Adding the global options:
+  usenames,usenames,dvipsnames
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count353
+\lst@gtempboxa=\box97
+\lst@token=\toks36
+\lst@length=\count354
+\lst@currlwidth=\dimen184
+\lst@column=\count355
+\lst@pos=\count356
+\lst@lostspace=\dimen185
+\lst@width=\dimen186
+\lst@newlines=\count357
+\lst@lineno=\count358
+\lst@maxwidth=\dimen187
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count359
+\lst@skipnumbers=\count360
+\lst@framebox=\box98
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (./Test_farsi.aux
+
+LaTeX Warning: Label `Schaffer1985' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -827,32 +905,32 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-4.
+9.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-\AtBeginShipoutBox=\box97
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+\AtBeginShipoutBox=\box99
 
 (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -871,15 +949,15 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.76398pt, 483.9799pt, 56.76399pt)
-* v-part:(T,H,B)=(64.22437pt, 684.48587pt, 96.33661pt)
+* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.9799pt
-* \textheight=684.48587pt
-* \oddsidemargin=-15.50601pt
-* \evensidemargin=-15.50601pt
-* \topmargin=-45.04562pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -899,8 +977,9 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 29.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -910,15 +989,32 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count353
+\c@section@level=\count361
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./Test_farsi.out) (./Test_farsi.out)
 \@outlinefile=\write3
 
+
+! Package bidi Error: Oops! you have loaded package listings after bidi package
+. Please load package listings before bidi package, and then try to run xelatex
+ on your document again.
+
+See the bidi package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \begin{document}
+                     
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+\c@lstlisting=\count362
 (/usr/share/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
@@ -928,13 +1024,13 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 File: sbu-logo-LimooGraphic.eps Graphic file (type eps)
 <sbu-logo-LimooGraphic.eps>
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 24.88794pt on input line 41.
+(Font)              scaled to size 24.88794pt on input line 46.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 29.85593pt on input line 52.
+(Font)              scaled to size 29.85593pt on input line 57.
  [2]
 
 LaTeX Font Warning: Font shape `TU/Lotus.ttf(0)/b/n' undefined
-(Font)              using `TU/Lotus.ttf(0)/m/n' instead on input line 69.
+(Font)              using `TU/Lotus.ttf(0)/m/n' instead on input line 80.
 
 (./Test_farsi.toc
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/b/n' will be
@@ -949,48 +1045,55 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
-])
-\tf@toc=\write4
-
+]
 
 LaTeX Font Warning: Font shape `TU/Lotus.ttf(0)/m/sl' undefined
-(Font)              using `TU/Lotus.ttf(0)/m/n' instead on input line 70.
+(Font)              using `TU/Lotus.ttf(0)/m/n' instead on input line 75.
 
-[4]
-LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/b/n' will be
-(Font)              scaled to size 29.85593pt on input line 70.
- (./Test_farsi.lof [5
-
-])
-\tf@lof=\write5
+[4])
+\tf@toc=\write4
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/sl' will be
-(Font)              scaled to size 14.39996pt on input line 71.
- [6]
+(Font)              scaled to size 14.39996pt on input line 81.
+ [5]
+LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/b/n' will be
+(Font)              scaled to size 29.85593pt on input line 81.
+ (./Test_farsi.lof [6
+
+] [7])
+\tf@lof=\write5
+ [8]
 فصل 1.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 20.73593pt on input line 74.
+(Font)              scaled to size 20.73593pt on input line 85.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/b/n' will be
-(Font)              scaled to size 20.73593pt on input line 74.
+(Font)              scaled to size 20.73593pt on input line 85.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 75.
+(Font)              scaled to size 9.59998pt on input line 86.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 75.
-[7
+(Font)              scaled to size 11.99997pt on input line 86.
+[9
 
-] [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+] [10] [11] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 [][]
  []
 
-[12] [13] [14] [15] [16] [17] [18] [19]
+[14] [15] [16] [17] [18] [19] [20] [21] [22]
 فصل 2.
-[20
-
-] [21] [22]
-فصل 3.
 [23
 
 ]
+Overfull \hbox (9.29564pt too wide) detected at line 220
+ $\OML/cmm/m/it/12 i\U/msb/m/n/12 ~[]\OML/cmm/m/it/12 e[] \OMS/cmsy/m/n/12 ^^@ 
+\OML/cmm/m/it/12 R[]e[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[] [] \OT1/cmr/m/
+n/12 + \OML/cmm/m/it/12 V :$  
+ []
+
+[24] [25]
+فصل 3.
+[26
+
+] [27]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig1.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
@@ -1003,7 +1106,7 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig3.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g3.png>
- [24] [25]
+ [28] [29]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig4.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
@@ -1020,59 +1123,161 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig7.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g7.png>
- [26] [27] [28]
+ [30] [31]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/figtah.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+gtah.png>
+ [32] [33]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/figtah2.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+gtah2.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/figtah3.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+gtah3.png>
+
+Overfull \hbox (2.4pt too wide) in paragraph at lines 433--446
+[][][]  [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--446
+[][]
+ []
+
+[34]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav1.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav1.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav2.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav2.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav3.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav3.png>
+
+Overfull \hbox (2.4pt too wide) in paragraph at lines 469--488
+[][][]  [][]
+ []
+
+[35]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav9.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav9.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav8.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav8.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav7.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav7.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav6.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav6.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav5.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav5.png>
+
+Overfull \hbox (2.4pt too wide) in paragraph at lines 497--529
+[][][]  [][]
+ []
+
+
+Overfull \hbox (2.4pt too wide) in paragraph at lines 497--529
+[][]   [][]
+ []
+
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/fighav4.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
+ghav4.png>
+[36] [37] [38]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/nas3.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/na
+s3.png>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/nas2.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/na
+s2.png>
+
+
+LaTeX Warning: Reference `fig:20' on page 39 undefined on input line 599.
+
+
+LaTeX Warning: Reference `fig:20' on page 39 undefined on input line 605.
+
+[39] [40] [41]
+فصل 4.
+Missing character: There is no ، in font cmr12!
+[42
+
+]
 Missing character: There is no ، in font cmr12!
 Missing character: There is no ، in font cmr12!
-Missing character: There is no ، in font cmr12!
- [29]
+ [43]
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 445.
+(Font)              scaled to size 17.27994pt on input line 680.
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/b/n' will be
-(Font)              scaled to size 17.27994pt on input line 445.
+(Font)              scaled to size 17.27994pt on input line 680.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 680.
+
 Missing character: There is no ، in font cmr12!
- [30]
+[44]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 537.
+(hyperref)                removing `math shift' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
+(hyperref)                removing `\rho' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
+(hyperref)                removing `math shift' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 537.
+(hyperref)                removing `math shift' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 537.
+(hyperref)                removing `\sigma' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 537.
+(hyperref)                removing `subscript' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 537.
+(hyperref)                removing `\sigma' on input line 772.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
+(hyperref)                removing `subscript' on input line 772.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 772.
 
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Fig:(1a).png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Fi
 g:(1a).png>
 LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 557.
+(Font)              scaled to size 13.13995pt on input line 792.
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Fig:(1b).png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Fi
@@ -1165,48 +1370,48 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Fig:(6d).png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Fi
 g:(6d).png>
-[31] [32] [33]
+[45] [46] [47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 853.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 853.
+(hyperref)                removing `math shift' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `\rho' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 853.
+(hyperref)                removing `math shift' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 853.
+(hyperref)                removing `\sigma' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\not' on input line 853.
+(hyperref)                removing `subscript' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 853.
+(hyperref)                removing `\not' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 853.
+(hyperref)                removing `\sigma' on input line 1088.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `subscript' on input line 1088.
 
-[34]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1088.
+
+[48]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Fig:(10a).png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Fi
@@ -1255,17 +1460,17 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Fig:(12d).png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Fi
 g:(12d).png>
- [35] [36]
+ [49] [50]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig3_11.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g3_11.png>
- [37]
+ [51]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/snp_snp.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/sn
 p_snp.png>
- [38]
+ [52]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Dax_Topix.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Da
@@ -1275,19 +1480,20 @@ ts/Dax_SnP.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Da
 x_SnP.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1316--1356
 [][]
  []
 
+[53] [54] [55]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/Dow_SnP.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/Do
 w_SnP.png>
-[39] [40] [41] [42] [43]
-فصل 4.
-[44
+ [56] [57]
+فصل 5.
+[58
 
-]
+] [59]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig1.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
@@ -1296,7 +1502,7 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig5_2.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g5_2.png>
- [45] [46]
+ [60]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig5_4.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
@@ -1305,20 +1511,21 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/new1_fig0.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/ne
 w1_fig0.png>
+ [61]
 Missing character: There is no ، in font cmr12!
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig6pr.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g6pr.png>
 
-Overfull \hbox (6.87428pt too wide) in paragraph at lines 1229--1257
-[]$\OML/cmm/m/it/12 FTSE\OT1/cmr/m/n/12 100\OML/cmm/m/it/12 ; TOPIX;$ $DAX\OT1/
-cmr/m/n/12 30\OML/cmm/m/it/12 performance;$ $NIKKEI\OT1/cmr/m/n/12 225\OML/cmm/
-m/it/12 ;$ $KoreaSEcomposite$ \TU/Lotus.ttf(0)/m/sl/12 و $\OML/cmm/m/it/12 Shan
-ghaiSEA$[]
+Overfull \hbox (49.32573pt too wide) in paragraph at lines 1470--1495
+[]$\OML/cmm/m/it/12 S\OT1/cmr/m/n/12 &\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 500\OML
+/cmm/m/it/12 composite;$ $FTSE\OT1/cmr/m/n/12 100\OML/cmm/m/it/12 ; TOPIX;$ $DA
+X\OT1/cmr/m/n/12 30\OML/cmm/m/it/12 performance;$ $NIKKEI\OT1/cmr/m/n/12 225\OM
+L/cmm/m/it/12 ;$ $KoreaSEcomposite$[]
  []
 
-[47] [48]
+[62] [63]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig5_6.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
@@ -1331,81 +1538,598 @@ File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig10.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g10.png>
- [49] [50] [51]
+ [64] [65] [66]
 File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
 ts/fig3_a.png Graphic file (type bmp)
 </home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/fi
 g3_a.png>
- [52] [53]
-فصل 5.
-[54
+ [67] [68]
+فصل 6.
+[69
 
-] [55]
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
-lt;mapping=persian-tex-text;!
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
-lt;mapping=persian-tex-text;!
-Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
-lt;mapping=persian-tex-text;!
- [56
+] [70]
+پیوست آ.
+[71
 
-] [57] [58]
-Missing character: There is no ö in font [Lotus.ttf]/OT:script=arab;language=df
-lt;mapping=persian-tex-text;!
+] [72] [73]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/gediag.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/gediag.pdf>
+ [74]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/jamiat.png Graphic file (type bmp)
+</home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plots/ja
+miat.png>
+ [75] [76]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/pieee.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/pieee.pdf>
 
-Underfull \hbox (badness 2245) in paragraph at lines 1507--1508
-[][]\TU/Lotus.ttf(0)/m/sl/12 Haven، Emmanuel. ”A Black-Scholes Schrödinger opti
-on price:‘bit’versus[]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[77] [78]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/crs1.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/crs1.pdf>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/crs2.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/crs2.pdf>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/crs3.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/crs3.pdf>
+ [79]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/mut.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/mut.pdf>
+ [80] [81]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/prt1.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/prt1.pdf>
+ [82]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/prt2.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/prt2.pdf>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/prt3.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/prt3.pdf>
+[83] [84] [85]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/prt4.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/prt4.pdf>
+ [86]
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/VEGA.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/VEGA.pdf>
+ [87]
+LaTeX Font Info:    Font shape `TU/Lotus.ttf(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 1908.
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/nndmnt.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/nndmnt.pdf>
+File: /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plo
+ts/nsgaii2.pdf Graphic file (type pdf)
+<use /home/hossein4527/MEGA/MEGAsync/Commit/University-Projects/MSc_Thesis/plot
+s/nsgaii2.pdf>
+ [88] [89]
+
+LaTeX Warning: Reference `fig:CDA' on page 90 undefined on input line 1936.
+
+[90]
+پیوست ب.
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 1940.
+ (./mod_packs.py
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 1--2
+[][][][][][] []
  []
 
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 3--4
+[][][][][][] []
+ []
+
+
+Overfull \hbox (19.96072pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 11--12
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 13--14
+[][][][][][] []
+ []
+
+[91
+
+]
+Overfull \hbox (84.76138pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (84.76138pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[92] [93] [94]
+Overfull \hbox (5.56058pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[95]
+Overfull \hbox (106.3616pt too wide) in paragraph at lines 146--147
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (106.3616pt too wide) in paragraph at lines 147--148
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (84.76138pt too wide) in paragraph at lines 154--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[96]
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 184--185
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 185--186
+[][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 186--187
+[][][][][][] []
+ []
+
+[97]
+Overfull \hbox (149.56204pt too wide) in paragraph at lines 210--211
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (91.96146pt too wide) in paragraph at lines 212--213
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (91.96146pt too wide) in paragraph at lines 213--214
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (91.96146pt too wide) in paragraph at lines 214--215
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (120.76175pt too wide) in paragraph at lines 215--216
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[98]
+Overfull \hbox (120.76175pt too wide) in paragraph at lines 216--217
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (120.76175pt too wide) in paragraph at lines 217--218
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (127.96182pt too wide) in paragraph at lines 218--219
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (127.96182pt too wide) in paragraph at lines 219--220
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (127.96182pt too wide) in paragraph at lines 220--221
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 232--233
+[][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 235--236
+[][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 238--239
+[][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[99] [100]
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 281--282
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 282--283
+[][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 283--285
+[][][][][][] []
+ []
+
+
+Overfull \hbox (5.56058pt too wide) in paragraph at lines 292--293
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[101]
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 306--307
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (77.56131pt too wide) in paragraph at lines 307--308
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 319--320
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (99.16153pt too wide) in paragraph at lines 322--323
+[][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (34.36087pt too wide) in paragraph at lines 323--324
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[102]
+Overfull \hbox (55.96109pt too wide) in paragraph at lines 337--338
+[][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 351--352
+[][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[103]
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 358--359
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 359--360
+[][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 360--361
+[][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 369--370
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (106.3616pt too wide) in paragraph at lines 370--371
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[104]
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 403--404
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (84.76138pt too wide) in paragraph at lines 404--405
+[][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[105]
+Overfull \hbox (99.16153pt too wide) in paragraph at lines 434--435
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 439--440
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[106]
+Overfull \hbox (48.76102pt too wide) in paragraph at lines 440--441
+[][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+)
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 465--1940
+[][][][][][] []
+ []
+
+[107]
+پیوست پ.
+(./mod_genetic.py
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 1--2
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 3--4
+[][][][][][] []
+ []
+
+
+Overfull \hbox (19.96072pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 11--12
+[][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (70.36124pt too wide) in paragraph at lines 13--14
+[][][][][][] []
+ []
+
+[108
+
+]
+Overfull \hbox (5.56058pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (149.56204pt too wide) in paragraph at lines 32--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (120.76175pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[109]
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (12.76065pt too wide) in paragraph at lines 69--70
+[][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (34.36087pt too wide) in paragraph at lines 70--71
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[110]
+Overfull \hbox (300.76358pt too wide) in paragraph at lines 84--85
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 97--98
+[][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[111]
+Overfull \hbox (5.56058pt too wide) in paragraph at lines 112--113
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (149.56204pt too wide) in paragraph at lines 121--122
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (12.76065pt too wide) in paragraph at lines 129--130
+[][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (34.36087pt too wide) in paragraph at lines 130--131
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[112]
+Overfull \hbox (300.76358pt too wide) in paragraph at lines 144--145
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 157--158
+[][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[113]
+Overfull \hbox (84.76138pt too wide) in paragraph at lines 165--166
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (12.76065pt too wide) in paragraph at lines 168--169
+[][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 170--171
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 175--176
+[][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (12.76065pt too wide) in paragraph at lines 178--179
+[][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (41.56094pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 181--182
+[][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+) [114]
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
+lt;mapping=persian-tex-text;!
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
+lt;mapping=persian-tex-text;!
+Missing character: There is no ́ in font [Lotus.ttf]/OT:script=arab;language=df
+lt;mapping=persian-tex-text;!
+ [115
+
+]
+Underfull \hbox (badness 1019) in paragraph at lines 2005--2006
+[][]\TU/Lotus.ttf(0)/m/sl/12 Goldstein، Sheldon. ”Bohmian mechanics and quantum
+ information.”[]
+ []
+
+[116] [117]
 Missing character: There is no ö in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
+Missing character: There is no ö in font [Lotus.ttf]/OT:script=arab;language=df
+lt;mapping=persian-tex-text;!
+ [118]
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
-[59]
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
 Missing character: There is no ł in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
- [60]
+ [119]
+Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=df
+lt;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 1337) in paragraph at lines 2225--2226
+[][]\TU/Lotus.ttf(0)/m/sl/12 Bohm، D.، B. J. Hiley، and P. Holland. ”Book-Revie
+w-the Undivided[]
+ []
+
+[120]
 Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
 Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=df
 lt;mapping=persian-tex-text;!
-Missing character: There is no ä in font [Lotus.ttf]/OT:script=arab;language=df
-lt;mapping=persian-tex-text;!
- [61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1670.
- [62]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1670.
+ [121] [122]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2360.
+ [123]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2360.
  (./Test_farsi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1670.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1670.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2360.
 
 Package rerunfilecheck Info: File `Test_farsi.out' has not changed.
-(rerunfilecheck)             Checksum: 63C5EA3C0F94A05ECFD151EC157B0C2A;6133.
+(rerunfilecheck)             Checksum: 5A70B63AC297ACD787E8D71010C4B026;13696.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1670.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2360.
  ) 
 Here is how much of TeX's memory you used:
- 18085 strings out of 479284
- 353304 string characters out of 5886221
- 802620 words of memory out of 5000000
- 35342 multiletter control sequences out of 15000+600000
- 542335 words of font info for 88 fonts, out of 8000000 for 9000
+ 19862 strings out of 479284
+ 388990 string characters out of 5886221
+ 973179 words of memory out of 5000000
+ 37064 multiletter control sequences out of 15000+600000
+ 542367 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,11n,77p,4591b,711s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,14n,77p,4555b,2042s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Test_farsi.pdf (62 pages).
+Output written on Test_farsi.pdf (123 pages).

@@ -1,0 +1,537 @@
+%  LaTeX support: latex@mdpi.com 
+%  In case you need support, please attach all files that are necessary for compiling as well as the log file, and specify the details of your LaTeX setup (which operating system and LaTeX version / tools you are using).
+
+%=================================================================
+\documentclass[journal,article,submit,moreauthors,pdftex]{Definitions/mdpi} 
+
+%=================================================================
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{xx}
+\issuenum{1}
+\articlenumber{5}
+\pubyear{2020}
+\copyrightyear{2020}
+%\externaleditor{Academic Editor: name}
+\history{Received: date; Accepted: date; Published: date}
+%\updates{yes} % If there is an update available, un-comment this line
+
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{LastRevised=Monday, September 21, 2020 20:19:55}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{Language=American English}
+
+\input{tcilatex}
+%% MDPI internal command: uncomment if new journal that already uses continuous page numbers 
+%\continuouspages{yes}
+
+%------------------------------------------------------------------
+% The following line should be uncommented if the LaTeX file is uploaded to arXiv.org
+%\pdfoutput=1
+
+%=================================================================
+% Add packages and commands here. The following packages are loaded in our class file: fontenc, inputenc, calc, indentfirst, fancyhdr, graphicx,epstopdf, lastpage, ifthen, lineno, float, amsmath, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, tabto, xcolor, soul, multirow, microtype, tikz, totcount, amsthm, hyphenat, natbib, hyperref, footmisc, url, geometry, newfloat, caption
+
+%=================================================================
+%% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
+%% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{Quantum risk and portfolio management in \textbf{a }quantum mechanics
+	framework.}
+
+% Author Orchid ID: enter ID or remove command
+\newcommand{\orcidauthorA}{0000-0000-000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorB}{0000-0000-000-000X} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+\Author{H. Khaksar $^{1,}$, E. Haven $^{2,}$, S. Nasiri  $^{1,}$ and GR. Jafari $^{1,3}$}
+
+
+% Authors, for metadata in PDF
+\AuthorNames{H. Khaksar , E. Haven, S. Nasiri and GR. Jafari}
+
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+$^{1}$ \quad Department of Physics, Shahid Beheshti University, G.C., Evin, Tehran 19839, Iran; hossein.khaksar@hotmail.com, nasiri@iasbs.ac.ir\\
+$^{2}$ \quad Faculty of Business Administration, Memorial University, St. John's, Canada and IQSCS, UK; ehaven@mun.ca\\
+$^{3}$ \quad Department of Network and Data Science, Central European University ; gjafari@gmail.com\\}
+
+% Contact information of the corresponding author
+%\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation 3} 
+%\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\) 
+\abstract{Owing to the globalization of the economy, the concept
+	of entangled markets started to form, and this occurrence has smoothed the
+	entrance of quantum mechanics into behavioral finance. In this manuscript,
+	we introduce quantum risk and perform an analysis on
+	portfolio optimization by controlling the quantum potential. We
+	apply this method to eight major indices and construct a portfolio with a
+	minimum quantum risk. The results show quantum risk has a power law behavior
+	with a time-scale just as a standard deviation with different exponents.}
+
+% Keywords
+\keyword{Finance, Portfolio and Risk management, Quantum Physics}
+  % List three to ten pertinent keywords specific to the article, yet reasonably common within the subject discipline.
+
+% The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
+%\PACS{J0101}
+%\MSC{}
+%\JEL{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Diversity
+%\LSID{\url{http://}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Applied Sciences:
+%\featuredapplication{Authors are encouraged to provide a concise description of the specific application or a potential application of the work. This section is not mandatory.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Data:
+%\dataset{DOI number or link to the deposited data set in cases where the data set is published or set to be published separately. If the data set is submitted and will be published as a supplement to this paper in the journal Data, this field will be filled by the editors of the journal. In this case, please make sure to submit the data set as a supplement when entering your manuscript into our manuscript editorial system.}
+
+%\datasetlicense{license under which the data set is made available (CC0, CC-BY, CC-BY-SA, CC-BY-NC, etc.)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Toxins
+%\keycontribution{The breakthroughs or highlights of the manuscript. Authors can write one or two sentences to describe the most important part of the paper.}
+
+%\setcounter{secnumdepth}{4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%The order of the section titles is: Introduction, Materials and Methods, Results, Discussion, Conclusions for these journals: aerospace,algorithms,antibodies,antioxidants,atmosphere,axioms,biomedicines,carbon,crystals,designs,diagnostics,environments,fermentation,fluids,forests,fractalfract,informatics,information,inventions,jfmk,jrfm,lubricants,neonatalscreening,neuroglia,particles,pharmaceutics,polymers,processes,technologies,viruses,vision
+
+\section{Introduction}
+
+The growth of the\textbf{\ }global economy has made home bound investors to
+become, almost by default\textbf{, }international investors. Clearly,
+portfolio theory plays a key role in international investments. Much
+research has focussed on finding the optimal strategy for allocating wealth
+among various assets in such a manner to reduce risk rather than maximize
+returns. If we adopt a hedging perspective, we can claim this is the main
+objective of portfolio theory \cite{Jorion}. Harry Markowitz's mean-variance
+model \cite{Mark1}\cite{Mark2} has become a gold standard in portfolio
+theory. The mean-variance portfolio optimization model is highly dependent
+on the estimation errors of sample moments and includes negative weights for
+large portfolios, which requires investors to take on short positions. In
+the case where short positions are prohibited, constraints have to be
+applied on portfolio weights in the optimization process \cite{Best}\cite%
+{Green}\cite{Jagannathan}. A substantial amount of research has been
+performed so as to develop a reduced error Markowitz model. In \cite{Ledoit,Laloux,Plerou,Rosenow,Potters, Anderberg}we
+observe that the various authors used different covariant matrix estimators
+in their models in order to achieve more accurate and diversified portfolios
+with a lower proportion of negative weights, especially for short time
+horizons (see \cite{Kondor}\cite{Pafka}). Some researchers tried non-equal
+weighted historical data to distinguish between normal and more risky days
+in their portfolios \cite{Coelho}. Many researchers have tried to solve the
+problem by combining the investment horizon with return and risk. Bolgorian
+et al.\cite{Bolgorian} found a method to introduce a portfolio with
+minimized waiting time, for a particular return and known risk. In all of
+these methods, variance plays an important role as a classical correlation
+function in the process of optimization.
+
+There is a widely held consensus in the academic community that the
+historical return probability density function (PDF) is in general
+non-Gaussian and therefore higher moments can be informative. Employing
+higher moments of a PDF into the estimation of risk would require hard work
+and in some cases might not even be possible.
+
+However, one can attempt to change perspectives and try to apply a
+non-classical approach through finding the optimum solution for the
+portfolio problem. Although on prima facie, it may appear to be far-fetched,
+but the formalism of quantum mechanics can be a perfect candidate for such a
+situation, where the PDF is taken as an input of the theory and it gets rid
+of all the classical problems, including moments. It was the pioneering work
+of Andrei Khrennikov \cite{AKhrennikov1}\cite{AKhrennikov2} which
+established the quantum mechanical approach in finance. Through the works of
+Segal \cite{Segal} and Bagarello \cite{FBagarello1}\cite{FBagarello2} and
+Haven et al. \cite{Haven}, amongst others, the usefulness of quantum
+mechanics in their applications to finance was better understood. It was
+Choustova \cite{Choustova1} who first proposed to further analyze financial
+behavior using Bohmian quantum mechanics. Tahmasebi \cite{Tahmasebi} and
+Shen et al.\cite{Shen} used Choustova's idea to show that historical
+(public) information of an asset could be stored in a quantum potential
+governing that asset (within a particular period of time). Nasiri et al.\cite%
+{Nasiri1}\cite{Nasiri2} used empirical methods also proposed by Tahmasebi
+and Shen et al. \cite{Shen} to analyze the role of trading volume in the
+quantum potential.
+
+In the next section, we introduce our model and formulate the questions
+which we shall attempt to answer in section three. There we use a genetic
+algorithm to optimize the introduced model in order to find the portfolio
+and the appropriate weights for the minimum risk. In section four we compare
+two types of risk and we conclude in section five.
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{The quantum potential and a first look at what we call `quantum
+	risk' }
+
+The concept of `quantum potential' is well known as being a core part of the
+edifice of Bohmian mechanics \cite{Holland} which is also known as the
+semi-classical approach to quantum mechanics. In this approach, the quantum
+potential plays a key role in guiding the particle to its possible
+trajectories. Of course, no unique particle trajectory exists in quantum
+mechanics. Introducing the concept of quantum potential into an
+interdisciplinary context can lead to ambiguity and requires an innovative
+interpretation. The potential is easily derived from the Schr\"{o}dinger PDE
+through the substitution of the wave function $\psi $ in its polar form, $%
+Re^{iS}$, and resolving the equation. After the separation of real and
+imaginary parts, the real part equation will be derived as Eq(\ref{eq:1}),
+where the last term in Eq(\ref{eq:1}) is defined as the quantum potential
+(i.e. $Q(q)$) 
+\begin{equation}
+	\frac{\partial S}{\partial t}+(\frac{\partial S}{\partial q})^{2}+U(q)-\frac{%
+		\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}=0,\ \ \ \ \ \ \ \ \ \
+	\ \ \ Q(q)=-\frac{\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}.
+	\label{eq:1}
+\end{equation}%
+\newline
+Tahmasebi \cite{Tahmasebi} and Shen \cite{Shen} showed that there exist
+quantum potential walls (as well as real potential walls) for an arbitrary
+(commodity) price return history. Nasiri \cite{Nasiri1} and Shen \cite{Shen}
+showed that as market risk increases, the distance between the potential
+walls also increases.
+
+In this paper, we take the width of the potential walls as an effective
+measure for introducing the concept of risk. In order to reach a better
+understanding, we have illustrated the process in Fig(\ref{fig:1}), in which
+Fig(\ref{fig:sub2}) depicts the quantum potential governing an arbitrary
+observed time-series in a particular period of time shown in Fig(\ref%
+{fig:sub1}). The width of the walls shown in Fig(\ref{fig:sub2}) provides
+for our innovative notion which we term `quantum risk' in this particular
+approach and we use this specific notion throughout the paper. We juxtapose
+standard and quantum risk in the before last section of this paper. \newline
+
+\begin{figure}[tbh]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=60mm]{fig0a.png}
+		\caption{}
+		\label{fig:sub1}
+	\end{subfigure} 
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=60mm]{fig0_b.png}
+		\caption{ }
+		\label{fig:sub2}
+	\end{subfigure}
+	\caption{A schematic process of quantum potential and `quantum risk', where
+		a) Log-return time-series plotted for S\&P 500 and b) quantum potential
+		corresponding to S\&P 500 time-series.}
+	\label{fig:1}
+\end{figure}
+\newpage
+
+\section{Portfolio optimization}
+
+Whilst constructing a desired portfolio, it is reasonable to question why
+one portfolio may be preferred over another. In this paper, we use the
+notion of quantum risk, which we heuristically introduced in Fig(\ref%
+{fig:sub2}), in order to optimize the quantum risk associated to a
+portfolio. This portfolio is constructed by appropriate company shares. The
+return of the portfolio, or index, is defined in a straightforward way as Eq(%
+\ref{eq:3}): \newline
+\begin{equation}
+	\bar{r}(t)=\sum_{i=1}^{N}\omega _{i}r_{i}(t),  \label{eq:3}
+\end{equation}%
+\newline
+where $\omega _{i}$ is the weight and $r_{i}(t)$ is the log-return of the $%
+i^{th}$ security at time $t$. One can easily construct the quantum potential 
+$\frac{-\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}$ where $R(\bar{%
+	r})$ is the probability density function of the portfolio return index. The
+measurable risk to be minimized is given by the width of the potential's
+walls.
+
+Our proposed method consists in finding a suitable choice of $\omega
+_{i}^{{}}$'s with the help of a genetic algorithm in order to minimize the
+risk. A graphical illustration of the process is shown in Fig(\ref{fig:2})
+in which an arbitrary set of weights is considered to construct the
+portfolio index. Each of these signals has been specified with their
+appropriate quantum potential and their wall width, as our new `measure' of
+quantum risk.\newline
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=120mm]{new1_fig0.png}
+	\caption{Schematic portfolio selection with quantum potential.}
+	\label{fig:2}
+\end{figure}
+\newpage In what follows, we demonstrate some simulation studies and
+illustrate the optimum values for the weights of the indices composing the
+appropriate portfolio. A very noticeable fact about an optimal portfolio is
+that it reduces the risk of losing money. But not all the feasible
+combinations of securities promise to do so. By the method introduced in the
+previous section, we are going to apply portfolio management to the top
+major market indices (i.e. the Dow Jones industrial, S\&P 500 composite,
+FTSE 100, TOPIX , DAX 30 performance, NIKKEI 225, Korea SE composite and the
+Shanghai SE A Share). The scaled quantum risk of these indices is shown in
+Fig(\ref{fig3:sub2}) compared with the quantum risk of one arbitrarily
+optimized portfolio. Some of the combinations (of indices) will show the
+lower risk amongst all portfolios.
+
+In this paper, we have used the genetic algorithm to find the suitable
+combinations which minimize the quantum risk. It is quite clear that the
+desired condition is not satisfied with only one solution. However, multiple
+answers may give rise to the minimum quantum risk. Five different
+combinations of indices (forming 5 different portfolios) with minimum
+desired quantum risk for each portfolio is shown in fig. 3. We note we can
+expect such levels of low risk given we work with portfolios of indices.  
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=100mm]{fig6pr.png}
+	\caption{Portfolio optimization process and selected optimized portfolios.}
+	\label{fig:3}
+\end{figure}
+\newline
+\newpage 
+
+\section{Comparing standard and quantum risk}
+
+From an arbitrary chosen optimized portfolio, we construct scaled returns
+for a $\tau $ time-scale. We claim that there exists a power-law relation
+between the $Risk$, and $\tau $ as follows: 
+\begin{equation}
+	Risk(\tau )\propto \tau ^{\alpha },
+\end{equation}%
+where $Risk(\tau )$ is the risk of the scaled log-return of the original
+series for $\tau $ days. One can examine the $\alpha $ exponent for
+different portfolios and make a comparison between their exponents. In Fig(%
+\ref{fig3:sub2}), we have illustrated the amount of $\alpha $ for one of the
+selected portfolios in Fig(\ref{fig:3}), where quantum risk and standard
+risk plays a role for $Risk$ . We make two observations: i) the standard
+risk and quantum risk have the same trend (i.e. upward); ii) an $\alpha $
+close to 0.5 indicates random walk.  
+\begin{figure}[tbh]
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=70mm]{fig1.png}
+		\caption{a}
+		\label{fig3:sub1}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=70mm]{fig3_a.png}
+		\caption{b}
+		\label{fig3:sub2}
+	\end{subfigure}
+	\caption{Log-return time-series and its appropriate quantum potential risk
+		plotted for S\&P 500 index.}
+	\label{fig:4}
+\end{figure}
+
+In Fig(\ref{fig3:sub2}), we have demonstrated the scaled risk for different
+portfolios, in order that one can get a better feeling towards comparing the
+risk of each individual index with its standard deviation and also the
+optimized portfolio, for a determined period of time (from Dec. 1994 to Dec.
+2019). Fig. 4a shows the normalized quantum risk of major indices introduced
+in the previous section, compared with their normalized standard notion for
+risk which is standard deviation. As one can follow from Fig. 4a, the Dow
+Jones and S\&P 500 have the lowest risk amongst all the indices. The
+Shanghai index itself got the highest risk among these 8 indices. The top
+bars in Fig. 4a show the risk and standard deviation of one selected
+optimized portfolio. It is clear that both the quantum risk and standard
+deviation of the selected portfolio is less than all the indices composing
+the portfolio.
+
+\newpage
+
+\section{Conclusion}
+
+In this paper, we showed how a simple concept of the quantum mechanical
+formalism can begin to aid us in risk management. We introduced a method
+which, if we control the quantum potential, results in extracting a specific
+measure of risk information of an index. Since the quantum potential has
+been shown to help in analyzing the coupling between markets, the bridge
+between market risk and systematic risk may be worthy of further
+consideration in future work.
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments).}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\reftitle{References}
+
+% Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
+% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
+
+%=====================================
+% References, variant A: external bibliography
+%=====================================
+%\externalbibliography{yes}
+%\bibliography{your_external_BibTeX_file}
+
+%=====================================
+% References, variant B: internal bibliography
+%=====================================
+
+
+
+\begin{thebibliography}{99}
+	\bibitem{Jorion} Jorion, P. International portfolio diversification with
+	estimation risk. \textit{J. Bus.} \textbf{1985}, 259-278.
+	
+	\bibitem{Mark1} Markowitz, H. M. Foundations of portfolio theory. \textit{J.
+		Financ. }\textbf{1991, }46 (2), 469-477.
+	
+	\bibitem{Mark2} Markowitz, H. M. The early history of portfolio theory:
+	1600-1960. \textit{Financ. Anal. J. }\textbf{1999}, 55 (4), 5-16.
+	
+	\bibitem{Best} Best, M.J.; Grauer, R.G. \ Positively weighted
+	minimum-variance portfolios and the structure of asset expected returns. 
+	\textit{J. Financ. Quant. Anal.}  \textbf{1992, }27 (4), 513-537.
+	
+	\bibitem{Green} Green, R. C.; Hollifield, B. When will mean-variance
+	efficient portfolios be well diversified? \textit{J. Financ. }\textbf{1992 }%
+	7 (5), 1785-1809.
+	
+	\bibitem{Jagannathan} Jagannathan, R.; Ma, T. Risk reduction in large
+	portfolios: why imposing the wrong constraints helps. \textit{J. Financ. }%
+	\textbf{2003}, 58 (4), 1651-1683.
+	
+	\bibitem{Ledoit} Ledoit, O.; Wolf, M.  Improved estimation of the covariance
+	matrix of stock returns with an application to portfolio selection. \textit{%
+		J. Empir. Financ. }\textbf{2003, }10(5), 603-621.
+	
+	\bibitem{Laloux} Laloux, L. et al. Noise dressing of financial correlation
+	matrices. \textit{Phys. Rev. Lett. }\textbf{1999}, 83 (7), 1467.
+	
+	\bibitem{Plerou} Plerou, V. et al. \ Universal and nonuniversal properties
+	of cross correlations in financial time series. \textit{Phys. Rev. Lett. }%
+	\textbf{1999, }83 (7), 1471.
+	
+	\bibitem{Rosenow} Rosenow, B. et al. Portfolio optimization and the random
+	magnet problem. \textit{Europhys. Lett. }\textbf{2002}, 59(4), 500.
+	
+	\bibitem{Potters} Potters, M.; Bouchaud, J.P.; Laloux, L.  Financial
+	applications of random matrix theory: old laces and new pieces. arXiv
+	preprint physics/0507111 \textbf{2005}.
+	
+	\bibitem{Anderberg} Anderberg, M. R. \textit{Cluster Analysis for
+		Applications}. A Volume in Probability and Mathematical Statistics: a Series
+	of Monographs and Textbooks. Academic Press, 1973.
+	
+	\bibitem{Kondor} Imre, K.; Szilard, P.; Gabor, N. Noise sensitivity of
+	portfolio selection under various risk measures. \textit{J. Bank. Financ. }%
+	\textbf{2007, } 31(5), 1545-1573.
+	
+	\bibitem{Pafka} Szilard, P.; \ Imre K. Noisy covariance matrices and
+	portfolio optimization II. \textit{Physica A} \textbf{2003, }319, 487-494.
+	
+	\bibitem{Coelho} Coelho, R. et al. The evolution of interdependence in world
+	equity markets: evidence from minimum spanning trees. \textit{Physica A} 
+	\textbf{2007, }376, 455-466.
+	
+	\bibitem{Bolgorian} Meysan, B.; Shirazi, A.H.;  Jafari G.R. Portfolio
+	selection using level crossing analysis. \textit{Int. J. Mod. Phys.} \textbf{%
+		2011, }22 (08), 841-848.
+	
+	\bibitem{AKhrennikov1} Khrennikov, A. Classical and quantum mechanics on
+	information spaces with applications to cognitive, psychological, social,
+	and anomalous phenomena. \textit{Found. Phys.} \textbf{1999, }29 (7),
+	1065-1098.
+	
+	\bibitem{AKhrennikov2} Khrennikov, A. \textit{Ubiquitous quantum structure:
+		from psychology to finance.} Springer Nature, 2010.
+	
+	\bibitem{Segal} Segal, W.; Segal, I.E. \ The Black-Scholes pricing formula
+	in the quantum context. \textit{P. Natl. Acad. Sci. USA} \textbf{1998},
+	95(7), 4072-4075.
+	
+	\bibitem{FBagarello1} Bagarello, F. \textit{Quantum dynamics for classical
+		systems.} J. Wiley, Hoboken-N.J., 2013.
+	
+	\bibitem{FBagarello2} Bagarello, F. An operatorial approach to stock
+	markets. \textit{J. Phys. A} 39, 6823.
+	
+	\bibitem{Haven} Haven, E.; Khrennikov, A.; Ma, C.; Sozzo, S. Special section
+	on \textquotedblleft Quantum Probability Theory and its Economic
+	Applications\textquotedblright . \textit{J. Math. Econ. }\textbf{2018}, 78,
+	127-197.
+	
+	\bibitem{Choustova1} Choustova, O. \ Quantum probability and financial
+	market. \textit{Inform. Sciences }\textbf{2009}, 179(5), 478-484.
+	
+	\bibitem{Tahmasebi} Tahmasebi F.; Meskinimood, S.; Namaki, A.; Farahani,
+	S.V.; Jalalzadeh, S.; Jafari, G. Financial market images: a practical
+	approach owing to the secret quantum potential. \textit{Eur. Phys. Lett.} 
+	\textbf{2015, }109 (3), 30001.
+	
+	\bibitem{Shen} Shen C.; Haven, E. Using empirical data to estimate potential
+	functions in commodity markets: some initial results. \textit{Int. J. Theor.
+		Phys. } \textbf{2017, }56 (12), 4092--4104.
+	
+	\bibitem{Nasiri1} Nasiri, S.; Bektas, E.; Jafari, G. \ Risk information of
+	stock market using quantum potential constraints. In: \textit{Emerging
+		Trends in Banking and Finance}. Springer. 2018. pp. 132-138.
+	
+	\bibitem{Nasiri2} Nasiri, S. ; Bektas, E.; Jafari, G. The impact of trading
+	volume on the stock market credibility: Bohmian quantum potential approach. 
+	\textit{Physica A} \textbf{2018, }512, 1104-1112.
+	
+	\bibitem{Holland} Holland, P. \textit{The Quantum Theory of Motion: An
+		Account of the de Broglie-Bohm Causal Interpretation of Quantum Mechanics.}
+	Cambridge University Press, 1995. 
+\end{thebibliography}
+% The following MDPI journals use author-date citation: Arts, Econometrics, Economies, Genealogy, Humanities, IJFS, JRFM, Laws, Religions, Risks, Social Sciences. For those journals, please follow the formatting guidelines on http://www.mdpi.com/authors/references
+% To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
+% To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% optional
+\sampleavailability{Samples of the compounds ...... are available from the authors.}
+
+%% for journal Sci
+%\reviewreports{\\
+%Reviewer 1 comments and authors’ response\\
+%Reviewer 2 comments and authors’ response\\
+%Reviewer 3 comments and authors’ response
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

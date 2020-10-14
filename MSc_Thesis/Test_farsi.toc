@@ -1,20 +1,80 @@
-\contentsline {chapter}{\numberline {1}پیشگفتار}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}مقدمه}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}ظهور پیچیدگی در اقتصاد و طرح مسأله}{12}{section.1.2}%
-\contentsline {section}{\numberline {1.3}تاریخچه}{16}{section.1.3}%
-\contentsline {chapter}{\numberline {2}مبانی ریاضیاتی مورد نیاز}{20}{chapter.2}%
-\contentsline {chapter}{\numberline {3}تعمیم پتانسیل کوانتومی در مطالعه بازارهای همبسته}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}پتانسیل کوانتومی حاکم بر سود و زیان یک بازار}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}پتانسیل کوانتومی مشترک حاکم بر سود و زیان دو بازار}{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}ارائه طرح پیشنهادی تابع توزیع گاوسی}{30}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2} بررسی متغیر $\rho $ برای بازارهای با واریانس یکسان، $\sigma _1 = \sigma _2$ }{31}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3} بررسی متغیر $\rho $ برای بازارهای با واریانس غیر یکسان، $\sigma _1 \neq \sigma _2$ }{34}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}پتانسیل کوانتومی برای داده های واقعی}{37}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}جمع بندی فصل سوم}{43}{section.3.3}%
-\contentsline {chapter}{\numberline {4}مدیریت ریسک و سبد سهام با استفاده از پتانسیل کوانتومی}{44}{chapter.4}%
-\contentsline {section}{\numberline {4.1}مقدمه ای بر مدیریت ریسک و سبد سهام}{44}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}واریانس تعریفی دانشگاهی از ریسک}{46}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}مدیریت ریسک و سبد سهام توسط پتانسیل کوانتومی}{47}{section.4.2}%
-\contentsline {section}{\numberline {4.3}تضاد ریسک با بازدهی}{50}{section.4.3}%
-\contentsline {section}{\numberline {4.4}جمع بندی فصل چهارم}{53}{section.4.4}%
-\contentsline {chapter}{\numberline {5}نتیجه گیری و پیشنهادات}{54}{chapter.5}%
+\contentsline {chapter}{\numberline {1}پیشگفتار}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}مقدمه}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}ظهور پیچیدگی در اقتصاد و طرح مسأله}{14}{section.1.2}%
+\contentsline {section}{\numberline {1.3}تاریخچه}{18}{section.1.3}%
+\contentsline {chapter}{\numberline {2}مبانی ریاضیاتی مورد نیاز}{23}{chapter.2}%
+\contentsline {chapter}{\numberline {3}کاربرد پتانسیل کوانتومی در مسائل اقتصادی}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}استفاده از داده های تجربی در محاسبه پتانسیل کوانتومی}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}استفاده از داده های تجربی بازار کالا در محاسبه پتانسیل کوانتومی }{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}پتانسیل کوانتومی دو بعدی حاکم بر بازدهی و حجم معاولات یک بازار}{39}{section.3.3}%
+\contentsline {chapter}{\numberline {4}تعمیم پتانسیل کوانتومی در مطالعه بازارهای هم بسته}{42}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}ارائه طرح پیشنهادی تابع توزیع گاوسی}{44}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2} بررسی متغیر $\rho $ برای بازارهای با واریانس یکسان، $\sigma _1 = \sigma _2$ }{45}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3} بررسی متغیر $\rho $ برای بازارهای با واریانس غیر یکسان، $\sigma _1 \neq \sigma _2$ }{48}{subsection.4.0.3}%
+\contentsline {subsection}{\numberline {4.0.4}پتانسیل کوانتومی برای داده های واقعی}{51}{subsection.4.0.4}%
+\contentsline {section}{\numberline {4.1}جمع بندی فصل سوم}{57}{section.4.1}%
+\contentsline {chapter}{\numberline {5}مدیریت ریسک و سبد سهام با استفاده از پتانسیل کوانتومی}{58}{chapter.5}%
+\contentsline {section}{\numberline {5.1}مقدمه ای بر مدیریت ریسک و سبد سهام}{58}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}واریانس تعریفی دانشگاهی از ریسک}{60}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}مدیریت ریسک و سبد سهام توسط پتانسیل کوانتومی}{61}{section.5.2}%
+\contentsline {section}{\numberline {5.3}تضاد ریسک با بازدهی}{64}{section.5.3}%
+\contentsline {section}{\numberline {5.4}جمع بندی فصل چهارم}{67}{section.5.4}%
+\contentsline {chapter}{\numberline {6}نتیجه گیری و پیشنهادات}{69}{chapter.6}%
+\contentsline {chapter}{\numberline {آ} بهینه سازی چند هدفه}{71}{appendix.Alph1}%
+\contentsline {section}{\numberline {آ.1}مقدمه}{71}{section.Alph1.1}%
+\contentsline {paragraph}{}{71}{section*.35}%
+\contentsline {section}{\numberline {آ.2}الگوریتم ژنتیک}{72}{section.Alph1.2}%
+\contentsline {paragraph}{}{72}{section*.36}%
+\contentsline {section}{\numberline {آ.3}تعریف کروموزوم}{74}{section.Alph1.3}%
+\contentsline {paragraph}{}{74}{section*.38}%
+\contentsline {section}{\numberline {آ.4}تولید جمعیت اولیه}{75}{section.Alph1.4}%
+\contentsline {paragraph}{}{75}{section*.39}%
+\contentsline {section}{\numberline {آ.5}الگوریتم های انتخاب}{75}{section.Alph1.5}%
+\contentsline {paragraph}{}{75}{section*.41}%
+\contentsline {subsection}{\numberline {آ.5.1}انتخاب به صورت قطعی}{76}{subsection.Alph1.5.1}%
+\contentsline {paragraph}{}{76}{section*.42}%
+\contentsline {subsection}{\numberline {آ.5.2}انتخاب بر اساس تورنمنت}{76}{subsection.Alph1.5.2}%
+\contentsline {paragraph}{}{76}{section*.43}%
+\contentsline {subsection}{\numberline {آ.5.3}انتخاب بر اساس مکانیزم چرخ گردان}{77}{subsection.Alph1.5.3}%
+\contentsline {paragraph}{}{77}{section*.44}%
+\contentsline {section}{\numberline {آ.6}عملگرهای ژنتیکی}{78}{section.Alph1.6}%
+\contentsline {paragraph}{}{78}{section*.47}%
+\contentsline {subsection}{\numberline {آ.6.1}عملگر تقاطع}{79}{subsection.Alph1.6.1}%
+\contentsline {paragraph}{}{79}{section*.48}%
+\contentsline {subsubsection}{تقاطع یک نقطه‌ای}{79}{section*.49}%
+\contentsline {paragraph}{}{79}{section*.50}%
+\contentsline {subsubsection}{تقاطع دو نقطه‌ای}{79}{section*.52}%
+\contentsline {paragraph}{}{79}{section*.53}%
+\contentsline {subsubsection}{تقاطع یکنواخت}{80}{section*.55}%
+\contentsline {paragraph}{}{80}{section*.56}%
+\contentsline {subsection}{\numberline {آ.6.2}عملگر جهش}{80}{subsection.Alph1.6.2}%
+\contentsline {paragraph}{}{80}{section*.58}%
+\contentsline {section}{\numberline {آ.7}پیمایش برازندگی}{81}{section.Alph1.7}%
+\contentsline {section}{\numberline {آ.8}نمایش استاندارد مسائل بهینه‌سازی چند هدفه}{81}{section.Alph1.8}%
+\contentsline {paragraph}{}{81}{section*.60}%
+\contentsline {section}{\numberline {آ.9}نقاط بهینه پارتو}{82}{section.Alph1.9}%
+\contentsline {paragraph}{}{82}{section*.62}%
+\contentsline {subsection}{\numberline {آ.9.1}پارتو غالب \lr {(Pareto Dominance)}}{85}{subsection.Alph1.9.1}%
+\contentsline {paragraph}{}{85}{section*.65}%
+\contentsline {subsection}{\numberline {آ.9.2}مجموعه پارتو \lr {(Pareto Set)}}{85}{subsection.Alph1.9.2}%
+\contentsline {paragraph}{}{85}{section*.66}%
+\contentsline {subsection}{\numberline {آ.9.3}جبهه پارتو \lr {(Pareto Front)}}{85}{subsection.Alph1.9.3}%
+\contentsline {paragraph}{}{85}{section*.67}%
+\contentsline {subsection}{\numberline {آ.9.4}تحدب و تقعر مجموعه پارتو}{85}{subsection.Alph1.9.4}%
+\contentsline {paragraph}{}{85}{section*.68}%
+\contentsline {section}{\numberline {آ.10}الگوریتم‌های مختلف حل مسائل بهینه‌سازی چند هدفه}{86}{section.Alph1.10}%
+\contentsline {paragraph}{}{86}{section*.70}%
+\contentsline {subsection}{\numberline {آ.10.1}روش ضرایب وزنی}{86}{subsection.Alph1.10.1}%
+\contentsline {paragraph}{}{86}{section*.71}%
+\contentsline {subsection}{\numberline {آ.10.2}روش معیار سراسری}{87}{subsection.Alph1.10.2}%
+\contentsline {paragraph}{}{87}{section*.72}%
+\contentsline {subsection}{\numberline {آ.10.3}روش \lr {Min-Max}}{87}{subsection.Alph1.10.3}%
+\contentsline {paragraph}{}{87}{section*.73}%
+\contentsline {subsection}{\numberline {آ.10.4}روش \lr {VEGA}}{87}{subsection.Alph1.10.4}%
+\contentsline {paragraph}{}{87}{section*.74}%
+\contentsline {section}{\numberline {آ.11}الگوریتم NSGA-II}{88}{section.Alph1.11}%
+\contentsline {paragraph}{}{88}{section*.76}%
+\contentsline {subsection}{\numberline {آ.11.1}زیر برنامه‌ی فاصله‌ی تجمعی (\lr {CDA})}{89}{subsection.Alph1.11.1}%
+\contentsline {paragraph}{}{89}{section*.79}%
+\contentsline {chapter}{\numberline {ب}کتابخانه پایتون نوشته شده برای فصل چهارم }{91}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {پ}کتابخانه پایتون نوشته شده برای فصل پنجم }{108}{appendix.Alph3}%

@@ -1,0 +1,433 @@
+%\input{tcilatex}
+
+
+\documentclass[ aip,jmp,reprint]{revtex4-2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{LastRevised=Tuesday, April 07, 2020 12:12:47}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+
+\input{tcilatex}
+\begin{document}
+
+\title{Quantum risk and portfolio management in \textbf{a }quantum mechanics
+framework.}
+\author{H. Khaksar$^1$}
+\email{hossein.khaksar@hotmail.com}
+\author{S. Nasiri$^1$}
+\email{nasiri@iasbs.ac.ir}
+\author{E. Haven$^2$}
+\email{ehaven@mun.ca}
+\author{GR. Jafari$^{1,3}$}
+\email{gjafari@gmail.com}
+
+\begin{abstract}
+Owing to the globalization of the economy, the concept of entangled
+markets started to form, which has smoothed the entrance of quantum
+mechanics into behavioral finance. In this manuscript, we introduce
+quantum risk and perform an analysis on portfolio
+optimization by controlling the quantum potential. We apply this
+method to eight major indices and construct a portfolio with a minimum
+quantum risk. The results show quantum risk has a power law behavior with a
+time-scale just as a standard deviation with different exponents.
+\end{abstract}
+
+\keywords{Finance, Portfolio and Risk management, Quantum Physics}
+\maketitle
+
+\address{$1)$ Department of Physics, Shahid Beheshti University, G.C., Evin, Tehran 19839, Iran\\ 
+	$2)$ Faculty of Business Administration, Memorial University, St. John's, Canada and IQSCS, UK\\ 
+	$3)$ Department of Network and Data Science, Central European University }
+
+\section{Introduction}
+
+\textbf{Thank you for allowing me to study the paper!}
+
+It was Warren Buffet who said that in years from now, cash will be
+worth less. The growth of the global economy, has made home
+bound investors to become, almost by default, international investors. Much
+research has focussed on finding the optimal strategy for allocating wealth
+among various assets in such a manner to reduce risk rather than maximize
+returns (which is the main objective of portfolio theory)\cite{Jorion}. It
+was Harry Markowitz's mean-variance model\cite{Mark1,Mark2} which
+mobilized portfolio theory in the early 1950's. The mean-variance portfolio
+optimization model was highly dependent on the estimation errors of sample
+moments and included negative weights for large portfolios, which required
+investors to take on short positions. In the case where short positions were
+prohibited, constraints had to be applied on portfolio weights in the
+optimization process\cite{Best,Green,Jagannathan}. Enormous
+amounts of research have been done to develop Markowitz's model in order to
+reduce its errors. Ledoit, Laloux among others \cite{Ledoit,Laloux,Plerou,Rosenow,Potters,Anderberg} used different covariant matrix
+estimators in their models to get more accurate and diversified portfolios
+than Markowitz's, and with a lower proportion of negative weights,
+especially for short time horizons \cite{Kondor,Pafka,Kondor2}. Coelho tried non-equal weighted historical data to distinguish
+between normal and more risky days in their portfolios\cite{Coelho}. Many
+researchers have tried to solve the problem by combining the investment
+horizon with return and risk. Bolgorian et al.\cite{Bolgorian} found a
+method to introduce a portfolio with minimized waiting time, for a
+particular return and known risk. In all of these methods, variance plays an
+important role as a classical correlation function in the process of
+optimization.
+
+There is a widely held consensus in the academic community that the
+historical return probability density function (PDF) is in general
+non-Gaussian and therefore higher moments are informative. Employing higher
+moments of a PDF into the estimation of risk would require hard work and in
+some cases might not even be possible.
+
+However, one can attempt to change perspectives and try to apply a
+non-classical approach through finding the optimum solution for the
+portfolio problem. Although on prima facie, it may appear to be far-fetched,
+but the formalism of quantum mechanics can be a perfect candidate for such a
+situation, where the PDF is taken as an input of the theory and it gets rid
+of all the classical problems, including moments. It was the pioneering work
+of Andrei Khrennikov\cite{Khrennivov1} which established the quantum
+mechanical approach in finance. Through the works of Segal\cite{Segal} and
+Haven\cite{Haven2}, amongst others, the usefulness of quantum mechanics in
+their applications to finance was better understood. It was Choustova\cite%
+{Choustova1} who first proposed to further analyze financial behavior using
+Bohmian quantum mechanics. Tahmasebi\cite{Tahmasebi} and Shen et al.\cite%
+{Shen} used Choustova's idea to show that historical information of an asset
+could be stored in a quantum potential governing that asset (within a
+particular period of time). Nasiri et al.\cite{Nasiri1,Nasiri2} used
+empirical methods proposed by Tahmasebi and Shen to analyze the role of
+trading volume in the quantum potential.
+
+In the next section, we introduce our model and formulate the questions
+which we shall attempt to answer in section three. There we use a genetic
+algorithm to optimize the introduced model in order to find the portfolio
+and the appropriate weights for the minimum risk. In section four we compare
+two typoes of risk and we conclude in section five.
+
+\section{Quantum potential to `quantum' risk}
+
+The concept of quantum potential is well known as being part of the edifice
+of Bohmian mechanics [reference needed] which is also known as the
+semi-classical approach to quantum mechanics. In this approach, the quantum
+potential plays a key role in guiding the particle its possible
+trajectories. Of course no unique particle trajectory exists in quantum
+mechanics. Introducing the concept of quantum potential into an
+interdisciplinary context can be ambiguous and may require an innovative
+interpretation. The potential is easily derived from Schr\"{o}dinger
+equation through the substitution of the wave function $\psi $ with its
+polar form $Re^{iS}$ and resolving the equation. After the separation of
+real and imaginary parts of the Schr\"{o}dinger equation, the real part
+equation will be derived as Eq(\ref{eq:1}), where the last term in Eq(\ref%
+{eq:1}) is defined as quantum potential defined in Eq(\ref{eq:1}) 
+\begin{equation}
+\frac{\partial S}{\partial t}+(\frac{\partial S}{\partial q})^{2}+U(q)-\frac{%
+\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}=0,\ \ \ \ \ \ \ \ \ \
+\ \ \ Q(q)=-\frac{\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}.
+\label{eq:1}
+\end{equation}%
+\newline
+Tahmasebi\cite{Tahmasebi} and Shen\cite{Shen} showed that there exist
+quantum potential walls for an arbitrary price return history and Nasiri\cite%
+{Nasiri1} showed that as market risk increases, the distance between the
+potential walls also increases.
+
+In this paper, we take the width of the potential walls as an effective
+measure for introducing the concept of risk. In order to reach a better
+understanding, we have illustrated the process in Fig(\ref{fig:1}), in which
+Fig(\ref{fig:sub2}) depicts the quantum potential governing an arbitrary
+observed time-series in a particular period of time shown in Fig(\ref%
+{fig:sub1}). The width of the walls shown in Fig(\ref{fig:sub2}) provides
+for our innovative notion which we term `quantum risk' in this particular
+approach and we use this specific notion throughout the paper.\newline
+\textbf{[question: width of walls: but width of walls on real potentials
+coincide...the idea of quantum risk is interesting - but i think it relates
+not to the width of the walls of the potential well - since wall width for
+both real potential and quantum coincide. It may be a idea to look at force
+- either derived from real or quantum potential - and the gradient of this
+force. I also think that quantum risk as defined here - is simply measuring
+maximum spread level of return? ]}
+
+\begin{figure}[htb]
+\centering
+\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=60mm]{fig0a.png}
+		\caption{}
+		\label{fig:sub1}
+	\end{subfigure} 
+\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=60mm]{fig0_b.png}
+		\caption{ }
+		\label{fig:sub2}
+	\end{subfigure}
+\caption{An schematic process of quantum potential and quantum risk, where
+a) Log-return time-series plotted for S\&P 500 and b) quantum potential
+corresponding to S\&P 500 time-series.}
+\label{fig:1}
+\end{figure}
+\newpage
+
+\section{Portfolio optimization}
+
+Whilst constructing a desired portfolio, it is reasonable to question why
+one portfolio may be preferred over another. In this paper, we use the
+notion of quantum risk introduced in Fig(\ref{fig:sub2}), in order to
+optimize the quantum risk associated to a portfolio, which is constructed by
+appropriate company shares. The return of the portfolio, or index is defined
+in a straightforward way as Eq(\ref{eq:3}): \newline
+\begin{equation}
+\bar{r}(t)=\sum_{i=1}^{N}\omega _{i}r_{i}(t),  \label{eq:3}
+\end{equation}%
+\newline
+where $\omega _{i}$ is the weight and $r_{i}(t)$ is the log-return of the $%
+i^{th}$ security in time $t$. One can easily construct the quantum potential 
+$\frac{-\hbar ^{2}}{2mR}\frac{\partial ^{2}R}{\partial q^{2}}$ where $R(\bar{%
+r})$ is the probability density function  of the portfolio return index. The
+measurable risk to be minimized is the width of the potential's walls.
+[again real and quantum walls coincide...]
+
+Our method is to find a suitable choice of $\omega _{i}^{{}}$'s with the
+help of a genetic algorithm in order to minimize the risk. A graphical
+illustration of the process is shown in Fig(\ref{fig:2}) in which an
+arbitrary set of weights is considered to construct the portfolio index.
+Each of these signals has been specified with their appropriate quantum
+potential and their wall width as our new notion of quantum risk. \textbf{%
+[Question: weights in the figure should w1, w2,....wn - not w3]}\newline
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=120mm]{new1_fig0.png}
+\caption{Schematic portfolio selection with quantum potential.}
+\label{fig:2}
+\end{figure}
+\newpage In the following we demonstrate some case studies and illustrate
+the optimum values for the weights of the shares composing the appropriate
+portfolio. A very noticeable fact about an optimal portfolio is that it
+reduces the risk of loosing money. But not all the feasible combinations of
+securities promise us to do so. By the method introduced in the previous
+section, we are going to apply portfolio management to the top major market
+indices, namely Dow Jones industrial, S\&P 500 composite, FTSE 100, TOPIX ,
+DAX 30 performance, NIKKEI 225, Korea SE composite and the Shanghai SE A
+Share. The scaled quantum risk of these indices has been shown in the Fig(%
+\ref{fig3:sub2}) compared with the quantum risk of one arbitrary optimized
+portfolio. Some of the combinations will show the lower risk among all. In
+this work we have tried the genetic algorithm to find the suitable
+combinations which minimizes the quantum risk.[  It is pretty obvious that
+the desired condition is not satisfied with only one solution however lots
+of answers may give rise to the minimum quantum risk. Five different
+combinations of indices (forming 5 different portfolios) with minimum
+desired quantum risk for its portfolio is shown in the Fig(\ref{fig:2}).
+[figure 3!!] [Question: \textbf{The issue may be here that the return is not
+juxtaposed next to the risk level. The green portfolio may be useful to have
+from a risk level but how does it compare to the other portfolios in terms
+of expected return?] }
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=100mm]{fig6pr.png}
+\caption{Portfolio optimization process and selected optimized portfolios.}
+\label{fig:3}
+\end{figure}
+\newline
+The degeneracy is pretty expected [\textbf{question: IT IS UNCLEAR WHAT IS
+MEANT WITH DEGENERACY}] with the fact that the correlation companies [?],
+especially the major ones has been risen enormously since last decades [%
+\textbf{My apologies - it is a little unclear.}]. Having the degenerate
+portfolios can come to help in some senses, managing the dynamics of our
+portfolio in time, walking through various minimum quantum risk portfolios,
+among others. \textbf{[Question: I think this could need a bit more
+explanation]} ... \newpage 
+
+\section{Comparing Standard and quantum risk}
+
+In the previous section, we realized that the optimum risk is highly
+degenerate \textbf{[Question: thanks for indicating what you\ mean?]} among
+constructed portfolios. This degeneracy has allowed us to choose different
+portfolios in each different distinct periods. In this section, we introduce
+another useful method towards distinguishing among degenerate portfolios.
+From an arbitrary chosen optimized portfolio, we construct scaled returns
+for a $\tau $ time-scale. We claim that there exists a power-law relation
+between the $Risk$, and $\tau $ as follows: 
+\begin{equation}
+Risk(\tau )\propto \tau ^{\alpha },
+\end{equation}%
+Where $Risk(\tau )$ is the risk of the scaled log-return of the original
+series for $\tau $ days. One can examine the $\alpha $ exponent for
+different portfolios and make a comparison between their exponents. In Fig(%
+\ref{fig3:sub2}), we have illustrated the amount of $\alpha $ for one of the
+selected portfolios in Fig(\ref{fig:3}), where quantum risk and standard
+risk plays a role for $Risk$ . 
+\begin{figure}[tbh]
+\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=70mm]{fig1.png}
+		\caption{a}
+		\label{fig3:sub1}
+	\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=70mm]{fig3_a.png}
+		\caption{b}
+		\label{fig3:sub2}
+	\end{subfigure}
+\caption{Log-return time-series and its appropriate quantum potential
+plotted for S\&P 500 index.}
+\label{fig:4}
+\end{figure}
+
+[colours seem to be reversed in the figure - blue is quantum risk - but not
+in figure b.?
+
+In Fig(\ref{fig3:sub2}), we have demonstrated the scaled risk for different
+securities, in order that one can get a better feeling towards comparing the
+risk of each individual security with its standard deviation and also the
+optimized portfolio, for a determined period of time(From Dec. 1994 to Dec.
+2019). Fig(\ref{fig3:sub2}) shows the normalized quantum risk of major
+indices introduced in the previous section, compared with their normalized
+standard notion existing for risk which is standard deviation. [\textbf{%
+Question: SO HERE YOU DISTINGUISH BETWEEN WALL WIDTH AND AVERAGE (MAX SD) ON
+THE RETURNS. A POSSIBLE QUESTION: WHY WOULD THOSE TWO DIFFER THAT MUCH -
+KNOWING THAT WALL WIDTH OF REAL AND QUANTUM POTENTIAL COINCIDE (THE PDF ON
+THE REAL POTENTIAL WILL GIVE INDICATING OF SD LEVEL?)] }As one can follow
+from Fig(\ref{fig3:sub2}) the Dow Jones and S\&P 500 have the lower risk of
+all and Shanghai index itself got the highest risk among these 8 indices.
+Above all these securities in Fig(\ref{fig3:sub2}), the risk and STD of one
+selected optimized portfolio has been drawn. It is clear that both the
+quantum risk and STD of the selected portfolio is less than all the
+securities composing the portfolio. \ \textbf{[question: THIS IS TO BE
+EXPLAINED BETTER - IT IS NOT CLEAR. BUT IT IS A VERY INTERESTING
+DEVELOPMENT. ]}
+
+\newpage
+
+\section{Conclusion}
+
+Risk has been the most important variable for investors for a long period of
+time. In spite of the fact that lots of research has been done in this
+particular context, we still welcome any innovative idea which formalizes
+better risk management. Recently, quantum mechanical applications in
+financial analysis attracted the attention of some researchers. In this
+work, we showed how quantum mechanics can lead us to perform portfolio and
+risk management by introducing a method by which, if we control the quantum
+potential, results in extracting risk information of a security. Since the
+quantum potential has been shown to analyze the coupling between markets,
+the bridge between market risk and systematic risk can be connected in
+further analysis [what do you mean?].
+
+\newpage
+
+\section{Refrences [there are spelling mistakes in the reference list - i
+can adjust]}
+
+\begin{thebibliography}{99}
+\bibitem{Jorion} Jorion, Philippe. "International portfolio diversification
+with estimation risk." Journal of Business (1985): 259-278.
+
+\bibitem{Mark1} Markowitz, Harry M. "Foundations of portfolio theory." The
+journal of finance 46.2 (1991): 469-477.
+
+\bibitem{Mark2} Markowitz, Harry M. "The early history of portfolio theory:
+1600\^{a}\euro ``1960." Financial analysts journal 55.4 (1999): 5-16.
+
+\bibitem{Best} Best, Michael J., and Robert R. Grauer. "Positively weighted
+minimum-variance portfolios and the structure of asset expected returns."
+Journal of Financial and Quantitative Analysis 27.4 (1992): 513-537.
+
+\bibitem{Green} Green, Richard C., and Burton Hollifield. "When will mean?variance efficient portfolios be well diversified?." The Journal of Finance 47.5 (1992): 1785-1809.
+
+\bibitem{Jagannathan} Jagannathan, Ravi, and Tongshu Ma. "Risk reduction in
+large portfolios: Why imposing the wrong constraints helps." The Journal of
+Finance 58.4 (2003): 1651-1683.
+
+\bibitem{Ledoit} Ledoit, Olivier, and Michael Wolf. "Improved estimation of
+the covariance matrix of stock returns with an application to portfolio
+selection." Journal of empirical finance 10.5 (2003): 603-621.
+
+\bibitem{Laloux} Laloux, Laurent, et al. "Noise dressing of financial
+correlation matrices." Physical review letters 83.7 (1999): 1467.
+
+\bibitem{Plerou} Plerou, Vasiliki, et al. "Universal and nonuniversal
+properties of cross correlations in financial time series." Physical review
+letters 83.7 (1999): 1471.
+
+\bibitem{Rosenow} Rosenow, Bernd, et al. "Portfolio optimization and the
+random magnet problem." EPL (Europhysics Letters) 59.4 (2002): 500.
+
+\bibitem{Potters} Potters, Marc, Jean-Philippe Bouchaud, and Laurent Laloux.
+"Financial applications of random matrix theory: Old laces and new pieces."
+arXiv preprint physics/0507111 (2005).
+
+\bibitem{Anderberg} Anderberg, Michael R. Cluster analysis for applications:
+probability and mathematical statistics: a series of monographs and
+textbooks. Vol. 19. Academic press, 2014.
+
+\bibitem{Kondor} Kondor, Imre, Szil\~{A}\textexclamdown rd Pafka, and G\~{A}%
+\textexclamdown bor Nagy. "Noise sensitivity of portfolio selection under
+various risk measures." Journal of Banking \& Finance 31.5 (2007): 1545-1573.
+
+\bibitem{Pafka} Pafka, Szil\~{A}\textexclamdown rd, and Imre Kondor. "Noisy
+covariance matrices and portfolio optimization II." Physica A: Statistical
+Mechanics and its Applications 319 (2003): 487-494.
+
+\bibitem{Kondor2} Kondor, Imre, et al. "Estimation Noise in Portfolio
+Optimization with Absolute Deviation." (2004).
+
+\bibitem{Coelho} Coelho, Ricardo, et al. "The evolution of interdependence
+in world equity markets\^{a}\euro ''Evidence from minimum spanning trees."
+Physica A: Statistical Mechanics and its Applications 376 (2007): 455-466.
+
+\bibitem{Bolgorian} Bolgorian, Meysam, A. H. Shirazi, and G. R. Jafari.
+"Portfolio Selection Using Level Crossing Analysis." International Journal
+of Modern Physics C 22.08 (2011): 841-848.
+
+
+\bibitem{Khrennivov1} Khrennivov, Andrei. "Classical and quantum mechanics
+on information spaces with applications to cognitive, psychological, social,
+and anomalous phenomena." Foundations of Physics 29.7 (1999): 1065-1098.
+
+\bibitem{Segal} Segal, Wiliam, and I. E. Segal. "The Black\^{a}\euro
+``Scholes pricing formula in the quantum context." Proceedings of the
+National Academy of Sciences 95.7 (1998): 4072-4075.
+
+\bibitem{Haven2} Haven, Emmanuel. "The variation of financial arbitrage via
+the use of an information wave function." International Journal of
+Theoretical Physics 47.1 (2008): 193-199.
+
+\bibitem{Choustova1} Choustova, Olga. "Quantum probability and financial
+market." Information Sciences 179.5 (2009): 478-484.
+
+\bibitem{Tahmasebi} Tahmasebi F., S. Meskinimood, A. Namaki, S. V. Farahani,
+S. Jalalzadeh and G. Jafari, Financial market images: a practical approach
+owing to the secret quantum potential. EPL: Europhysics Letters \textbf{109
+(3)}, 30001 (2015).
+
+\bibitem{Shen} Shen C. and E. Haven, Using empirical data to estimate
+potential functions in commodity markets: some initial results.
+International Journal of Theoretical Physics \textbf{56 (12)}, 4092--4104
+(2017).
+
+\bibitem{Nasiri1} Nasiri, Sina, Eralp Bektas, and Gholamreza Jafari. "Risk
+Information of Stock Market Using Quantum Potential Constraints." Emerging
+Trends in Banking and Finance. Springer, Cham, 2018. 132-138.
+
+\bibitem{Nasiri2} Nasiri, Sina, Eralp Bektas, and G. Reza Jafari. "The
+impact of trading volume on the stock market credibility: Bohmian quantum
+potential approach." Physica A: Statistical Mechanics and its Applications
+512 (2018): 1104-1112.
+
+\bibitem{Haven} Haven, Emmanuel, \ A. Khrennikov, C. Ma and S. Sozzo,
+Special section on \textquotedblleft Quantum Probability Theory and its
+Economic Applications\textquotedblright. Journal of Mathematical Economics 
+\textbf{78}, 127-197 (2018).
+\end{thebibliography}
+
+\end{document}
